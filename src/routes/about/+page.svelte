@@ -80,7 +80,7 @@
 		max-width: 600px;
 		height: max-content;
 		padding: 180px 24px 80px 24px;
-		overflow-x: scroll;
+		overflow-y: scroll;
 		display: flex;
 		flex-direction: column;
 		text-align: start;
