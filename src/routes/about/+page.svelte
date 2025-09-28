@@ -71,7 +71,8 @@
 		display: flex;
 		justify-content: center;
 		align-items: start;
-		overflow: hidden;
+		overflow-x: hidden;
+		overflow-y: scroll;
 		z-index: 0;
 	}
 
