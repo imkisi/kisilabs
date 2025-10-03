@@ -5,8 +5,17 @@
 
 -->
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import Navbar from '$lib/components/Navbar.svelte';
 	import BackdropBlur from '$lib/components/BackdropBlur.svelte';
+
+	const bioContent = `Hey there! I'm Bagas Dwi Anggoro, but you can call me KiSI. I'm a computer science student and a creative explorer constantly driven to experiment. I love blending the logic of code with visual beauty, believing there are no limits between art and technology. <br /><br /> Here, you'll find the results of my experiments with dynamic motion graphics, captivating visual effects, and vibrant illustrations, all brought to life through visual design and development.`;
+
+	let bioWords: string[] = [];
+
+	onMount(() => {
+		bioWords = bioContent.replace(/<br \/><br \/>/g, ' <br_br> ').split(' ');
+	});
 
 	let showBackdrop = true;
 
@@ -22,12 +31,13 @@
 	<div class="container">
 		<h1 class="title">✽</h1>
 		<p class="bio">
-			Hey there! I'm Bagas Dwi Anggoro, but you can call me KiSI. I'm a computer science student and
-			a creative explorer constantly driven to experiment. I love blending the logic of code
-			with visual beauty, believing there are no limits between art and technology.
-			<br /><br />
-			Here, you'll find the results of my experiments with dynamic motion graphics, captivating visual
-			effects, and vibrant illustrations, all brought to life through visual design and development.
+			{#each bioWords as word, i}
+				{#if word === '<br_br>'}
+					<br /><br />
+				{:else if word}
+					<span class="bio-word" style="--i: {i}">{@html word}</span>{' '}
+				{/if}
+			{/each}
 		</p>
 		<div class="experience">
 			<pre>EXPERIENCE<br />│<br />├── Wiseline.id <span class="duration">2024 - Present</span><br
@@ -88,6 +98,18 @@
 		justify-content: start;
 		gap: 24px;
 		box-sizing: border-box;
+		animation: fadeIn 0.5s ease-out;
+	}
+
+	@keyframes fadeIn {
+		from {
+			padding-top: 260px;
+			opacity: 0;
+		}
+		to {
+			padding-top: 180px;
+			opacity: 1;
+		}
 	}
 
 	h1,
@@ -124,6 +146,34 @@
 		text-align: justify;
 	}
 
+	.bio-word {
+		display: inline-block;
+		position: relative;
+		color: transparent;
+		animation: revealText 0.7s forwards;
+		animation-delay: calc(var(--i) * 50ms);
+	}
+
+	.bio-word::before {
+		content: '----';
+		position: absolute;
+		left: 0;
+		color: #b0b0b0;
+		animation: hidePlaceholder 0.7s forwards;
+		animation-delay: calc(var(--i) * 50ms);
+	}
+
+	@keyframes revealText {
+		to {
+			color: #202a40;
+		}
+	}
+
+	@keyframes hidePlaceholder {
+		to {
+			opacity: 0;
+		}
+	}
 	.experience,
 	.affiliation {
 		box-sizing: border-box;
@@ -131,7 +181,7 @@
 		max-width: 600px;
 		height: fit-content;
 		border-radius: 12px;
-		border: 0.5px solid #dddddd;
+		border: 0.7px solid #dddddd;
 		background: #efefef;
 	}
 

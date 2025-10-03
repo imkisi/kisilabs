@@ -147,13 +147,12 @@
     .image-card {
         position: absolute;
         cursor: grab;
-        width: 300px;
+        width: 30vh;
         height: auto;
         padding: 2px;
-        background: none;
+        background: rgba(239,239,239,0.5);
+		border: 0.7px solid #dddddd;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-        background-blend-mode: normal;
-        backdrop-filter: blur(15px);
         border-radius: 8px;
         overflow: hidden;
 
@@ -189,7 +188,7 @@
         position: relative;
         top: 0;
         left: 0;
-        padding: 0 0 4px 6px ;
+        padding: 4px 0 6px 6px;
         width: 100%;
         background: none;
         font-size: 14px;
@@ -224,7 +223,7 @@
 
     @media screen and (max-width: 800px) {
         .project-name {
-            width: 90%;
+            width: 70vw;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
