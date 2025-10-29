@@ -126,8 +126,8 @@
         on:click={handleProjectClick}
         on:keydown={handleProjectKeydown}
         role="link"
-        tabindex="0">
-        {project.name} 🡥
+        tabindex="0">&#9737; &#9737;
+        {project.name}
     </div>
     <div class="block"></div>
     <img src={project.image} alt={project.name} loading="lazy" />
@@ -149,9 +149,9 @@
         cursor: grab;
         width: 30vh;
         height: auto;
-        padding: 2px;
+        padding: 4px;
         background: rgba(239,239,239,0.5);
-		border: 0.7px solid #dddddd;
+		border: 1px solid #a8a8a8;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
         border-radius: 8px;
         overflow: hidden;
@@ -188,11 +188,12 @@
         position: relative;
         top: 0;
         left: 0;
+        font-family: 'Fira Code', monospace;
         padding: 4px 0 6px 6px;
         width: 100%;
         background: none;
-        font-size: 14px;
-        color: #591EF3;
+        font-size: 12px;
+        color: #202a40;
         z-index: 10;
     }
 
@@ -219,6 +220,7 @@
         height: auto;
         display: block;
         border-radius: 8px;
+        border: 1px solid #a8a8a8;
     }
 
     @media screen and (max-width: 800px) {

@@ -57,6 +57,7 @@
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=JetBrains+Mono:wght@200;400;700&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
 	:global(body) {
 		margin: 0;
@@ -140,8 +141,8 @@
 
 	.bio {
 		font:
-			400 15px 'Fira Code',
-			monospace;
+			400 18px 'Crimson Pro',
+			serif !important;
 		color: #202a40;
 		text-align: justify;
 	}
@@ -181,7 +182,7 @@
 		max-width: 600px;
 		height: fit-content;
 		border-radius: 12px;
-		border: 0.7px solid #dddddd;
+		border: 0.8px solid #d0d0d0;
 		background: #efefef;
 	}
 
