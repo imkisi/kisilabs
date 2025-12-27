@@ -15,8 +15,9 @@
         { id: 2, name: 'Original Character', image: 'https://ik.imagekit.io/5s96ib16h/OC_main-1.avif?updatedAt=1761659804725', url: 'https://vgen.co/kisilabs/portfolio' },
         { id: 3, name: 'Comms_Ravel', image: 'https://ik.imagekit.io/5s96ib16h/Comms-Ravel_clear.avif?updatedAt=1761659805265', url: 'https://vgen.co/kisilabs/portfolio' },
         { id: 4, name: 'Comms_Nero', image: 'https://ik.imagekit.io/5s96ib16h/Comms-NERO_clear.avif?updatedAt=1761659805462', url: 'https://vgen.co/kisilabs/portfolio' },
-        { id: 4, name: 'Ecosystem_L2D', image: 'https://ik.imagekit.io/5s96ib16h/ecosystem.avif?updatedAt=1761709192606', url: 'https://vgen.co/kisilabs/portfolio' },
-        { id: 4, name: 'Comms_L2DxZlixy', image: 'https://ik.imagekit.io/5s96ib16h/Neril2dgif.gif?updatedAt=1761709359633', url: '#' },
+        { id: 5, name: 'Ecosystem_L2D', image: 'https://ik.imagekit.io/5s96ib16h/ecosystem.avif?updatedAt=1761709192606', url: 'https://vgen.co/kisilabs/portfolio' },
+        { id: 6, name: 'Comms_L2DxZlixy', image: 'https://ik.imagekit.io/5s96ib16h/Neril2dgif.gif?updatedAt=1761709359633', url: '#' },
+        { id: 7, name: 'Kreditin', image: 'https://ik.imagekit.io/5s96ib16h/Android.avif', url: 'https://github.com/imkisi/kreditin' },
     ];
 
     /** @type {{x: number, y: number, rotate: number}[]} */
