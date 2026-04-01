@@ -40,7 +40,7 @@
 			{/each}
 		</p>
 		<div class="experience">
-			<pre>EXPERIENCE<br />│<br />├── Wiseline.id <span class="duration">2024 - Present</span><br
+			<pre>EXPERIENCE<br />│<br />├── Wiseline.id <span class="duration">Jan 2024 - Jan 2026</span><br
 				/>│&nbsp;&nbsp;&nbsp;&nbsp;└── <span class="detail">Freelance creative designer</span><br
 				/>│<br />└── Mahakarya Studio <span class="duration">July 2025</span><br
 				/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <span class="detail">Illustrator</span></pre>

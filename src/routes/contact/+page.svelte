@@ -35,7 +35,7 @@
             <p class="title"><span class="blink">:</span> End</p>
         </div>
         <div class="footer">
-            <p>© 2025 KiSI Labs. All rights reserved.</p>
+            <p>© 2026 KiSI Labs. All rights reserved.</p>
             <p>Designed & Developed by Bagas Dwi Anggoro</p>
         </div>
     </div>
