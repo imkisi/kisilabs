@@ -21,6 +21,7 @@
         { id: 8, name: 'Stockly', image: 'https://ik.imagekit.io/5s96ib16h/Dribbble%20Shot-Stockly.avif', url: 'https://github.com/imkisi/Stockly-PHP-Crud' },
         { id: 9, name: 'Wiseline.id Website Design', image: 'https://ik.imagekit.io/5s96ib16h/Dribbble%20Shot-Wiseline.avif', url: 'https://wiseline.id' },
         { id: 10, name: 'Dithered Camera', image: 'https://ik.imagekit.io/5s96ib16h/Dribbble%20Shot-Dithered%20Cam.avif', url: 'https://github.com/imkisi/dithered-camera' },
+        { id: 11, name: 'Wlet.apk', image: 'https://ik.imagekit.io/5s96ib16h/Wlet.avif', url: 'https://github.com/imkisi/Wlet' },
     ];
 
     /** @type {{x: number, y: number, rotate: number}[]} */
