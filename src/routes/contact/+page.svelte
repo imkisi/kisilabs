@@ -30,7 +30,7 @@
             &emsp;&emsp;<a style="cursor: pointer;" on:click={() => window.open('https://vgen.co/kisilabs/', '_blank')}>VGen _ Illustration & Commission</a><br>
             &emsp;&emsp;<a style="cursor: pointer;" on:click={() => window.open('https://github.com/imkisi/', '_blank')}>GitHub _ Code</a><br>
             &emsp;&emsp;<a style="cursor: pointer;" on:click={() => window.open('https://www.behance.net/bagasanggoro1/', '_blank')}>Behance _ UI & Design</a><br>
-            &emsp;&emsp;&emsp;&emsp;<a href="mailto:hello@kisilabs.space">hello@kisilabs.space</a>
+            &emsp;&emsp;&emsp;&emsp;<a href="mailto:info@kisilabs.my.id">info@kisilabs.my.id</a>
             </p>
             <p class="title"><span class="blink">:</span> End</p>
         </div>

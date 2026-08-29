@@ -87,7 +87,7 @@
     <div class="bottom-nav">
         <div>
             <span>Mail</span>
-            <p><a href="mailto:hello@kisilabs.space">hello@kisilabs.space</a></p>
+            <p><a href="mailto:info@kisilabs.my.id">info@kisilabs.my.id</a></p>
         </div>
         <div class="time">
             <span>Local time</span>
